@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="assets/bootstrap.css">
+    <style>
+        body {margin: 0; height: 100%; overflow: hidden}
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -12,55 +15,53 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"><img width="50px" src="assets/Logo.png" alt=""></a>
+                <a class="nav-link active" aria-current="page" href="index.html"><img width="80px" src="assets/Logo.png" alt=""></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link ative" aria-current="page" href="#">Home</a>
+              <li class="nav-item align-self-center">
+                <a class="nav-link ative" aria-current="page" href="index.html">Home</a>
               </li>
-              <li class="nav-item dropdown">
+              <li class="nav-item dropdown align-self-center">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Genres
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Rap</a></li>
-                  <li><a class="dropdown-item" href="#">RnB</a></li>
-                  <li><a class="dropdown-item" href="#">Pop</a></li>
-                  <li><a class="dropdown-item" href="#">EDM</a></li>
-                  <li><a class="dropdown-item" href="#">Rock</a></li>
-                  <li><a class="dropdown-item" href="#">Indie</a></li>
+                  <li><a class="dropdown-item" href="popresults.html">Rap</a></li>
+                  <li><a class="dropdown-item" href="popresults.html">RnB</a></li>
+                  <li><a class="dropdown-item" href="popresults.html">Pop</a></li>
+                  <li><a class="dropdown-item" href="popresults.html">EDM</a></li>
+                  <li><a class="dropdown-item" href="popresults.html">Rock</a></li>
+                  <li><a class="dropdown-item" href="popresults.html">Indie</a></li>
                 </ul>
               </li>
               
-              <li class="nav-item">
-                <a class="nav-link ative" aria-current="page" href="#">News</a>
+              <li class="nav-item align-self-center">
+                <a class="nav-link ative" aria-current="page" href="news.html">News</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link ative" aria-current="page" href="#">Contact/About Us</a>
+              <li class="nav-item align-self-center">
+                <a class="nav-link ative" aria-current="page" href="aboutuscontact.html">Contact/About Us</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <a class="btn btn-outline-secondary" href="search.html" role="button">Search</a>
             </form>
             <div class="d-flex">
-                <div class="container">
+                <div class="container" style="scale: 0.9;">
                     <div class="row-auto">
-                        <div class="col-sm">
-                            <img src="assets/logo.png" width="50px" alt="">
+                        <div class="col-sm text-center">
+                            <img class="rounded-circle" src="https://t3.ftcdn.net/jpg/02/74/25/68/360_F_274256881_WSeCn3Iw8yFIU8T6z71aDjXHfAdtc5iy.jpg" width="50px" alt="">
                         </div>
-                        <div class="col-sm">
-                            <h6>Username</h6>
-                        </div>
-                        <div class="container-auto">
-                            <div class="row">
-                                <div class="col-auto">
+                        <div class="col-sm text-center p-0">
+                            <a href="userprofile.html" class=" link-offset-2 link-secondary link-underline link-underline-opacity-0"><h6 class="mb-0" >Headphone Cat</h6></a>
+                            <div style="scale: 0.9;" class="row p-0 px-2  text-center">
+                                <div class="col-auto p-1">
                                     <h7>
-                                        <a href="#">Sign In</a>
+                                        <a href="signin.html">Sign In</a>
                                     </h7>
                                 </div>
-                                <div class="col-auto">
+                                <div class="col-auto p-1">
                                     <h7>
-                                        <a href="#">Sign Out</a>
+                                        <a href="signin.html">Sign Out</a>
                                     </h7>
                                 </div>
                             </div>
@@ -96,7 +97,7 @@
                                           <div class="card-body">
                                             <h5 class="card-title">D'Amato Records</h5>
                                             <p class="card-text">€€€/€€€ |  ⭐️3/5</p>
-                                            <a href="#" class="btn btn-primary" width="10px">Locate Store</a>
+                                            <a href="https://maps.app.goo.gl/Rno2CENm93Xb8sS29" class="btn btn-primary" width="10px">Locate Store</a>
                                   </div>
                               </div>
                                   </div>
@@ -106,7 +107,7 @@
                                           <div class="card-body">
                                             <h5 class="card-title">Solo Vinyl</h5>
                                             <p class="card-text">€/€€€ |  ⭐️4/5</p>
-                                            <a href="#" class="btn btn-primary" width="10px">Locate Store</a>
+                                            <a href="https://maps.app.goo.gl/iaEwpXc8NN2KKGo7A" class="btn btn-primary" width="10px">Locate Store</a>
                                   </div>
                               </div>
                                   </div>
@@ -116,7 +117,7 @@
                                           <div class="card-body">
                                             <h5 class="card-title">Sunset Records</h5>
                                             <p class="card-text">€€/€€€ |  ⭐️3/5</p>
-                                            <a href="#" class="btn btn-primary" width="10px">Locate Store</a>
+                                            <a href="https://maps.app.goo.gl/HzZvJ4svenAFuz3E8" class="btn btn-primary" width="10px">Locate Store</a>
                                   </div>
                               </div>
                                   </div>
@@ -126,7 +127,7 @@
                                           <div class="card-body">
                                             <h5 class="card-title">Exotique</h5>
                                             <p class="card-text">€€€/€€€ |  ⭐️2/5</p>
-                                            <a href="#" class="btn btn-primary" width="10px">Locate Store</a>
+                                            <a href="https://maps.app.goo.gl/fabxY1hFiVomvTZB7" class="btn btn-primary" width="10px">Locate Store</a>
                                   </div>
                               </div>
                                   </div>
@@ -136,7 +137,7 @@
                                           <div class="card-body">
                                             <h5 style="object-fit: cover; display: inline-block; overflow: hidden;white-space: nowrap; font-size: medium;"  class="card-title">Big Rons Records</h5>
                                             <p class="card-text">€€€/€€€ |  ⭐️4/5</p>
-                                            <a href="#"  class="btn btn-primary" width="10px">Locate Store</a>
+                                            <a href="https://maps.app.goo.gl/hyufNJaqLtVZdP468"  class="btn btn-primary" width="10px">Locate Store</a>
                                   </div>
                               </div>
                                   </div>
@@ -155,11 +156,11 @@
                         <div class="row">
                             <div class="col-auto">
                                 <h3>Wishlist</h3>
-                                <h5>Flower Boy</h5>
-                                <h5>Cowboy Carter</h5>
-                                <h5>Eternal Sunshine</h5>
-                                <h5>The Rise and Fall of a Midwest Princess</h5>
-                                <h5>Lately I feel EVERYTHING</h5>
+                                <h5 class="p-0 m-1">Flower Boy</h5>
+                                <h5 class="p-0 m-1">Cowboy Carter</h5>
+                                <h5 class="p-0 m-1">Eternal Sunshine</h5>
+                                <h5 class="p-0 m-1">The Rise and Fall of a Midwest Princess</h5>
+                                <h5 class="p-0 m-1">Lately I feel EVERYTHING</h5>
                             </div>
                             <div class="col">
                                 <br>
@@ -209,12 +210,14 @@
             </div>
             <div class="col-auto p-0">
                 <!-- friend activity-->
-                <div class="col-sm">
+                <div class="col-sm" style="scale: 0.95;">
                     <h1>Friend Activity</h1>
                     <div class="row">
                         <div class="col-auto">
-                            <img src="https://pbs.twimg.com/media/GGYQzllXIAAlpI5.png" width="80px" style="object-fit: cover; height: 80px; border-radius: 100%;" >
-                            <h5>Duck Fieri</h5>
+                            <a href="friendprofile.html">
+                                <img src="https://pbs.twimg.com/media/GGYQzllXIAAlpI5.png" width="80px" style="object-fit: cover; height: 80px; border-radius: 100%;" >
+                                <h5>Duck Fieri</h5>
+                            </a>
                         </div>
                         <div class="col-auto">
                             <h5>Purchased</h5>
@@ -232,9 +235,11 @@
                     </div>
                     <div class="row">
                         <div class="col-auto">
-                            <img src="https://assets-global.website-files.com/62bdc93e9cccfb43e155104c/654e8c568fee71420a5134b5_63ca2aa7780fcd20bb04563c_Cool%2520Snoopy%2520PFP%2520for%2520Tiktok%25201.jpeg" width="80px" style="object-fit: cover; height: 80px; border-radius: 100%;" >
-                            <h5 style="margin-bottom: 0px;">Groovy</h5>
-                            <h5 style="margin-top: 0;">Snoopy</h5>
+                            <a href="friendprofile.html">
+                                <img src="https://assets-global.website-files.com/62bdc93e9cccfb43e155104c/654e8c568fee71420a5134b5_63ca2aa7780fcd20bb04563c_Cool%2520Snoopy%2520PFP%2520for%2520Tiktok%25201.jpeg" width="80px" style="object-fit: cover; height: 80px; border-radius: 100%;" >
+                                <h5 style="margin-bottom: 0px;">Groovy</h5>
+                                <h5 style="margin-top: 0;">Snoopy</h5>
+                            </a>
                         </div>
                         <div class="col-auto">
                             <h5>Purchased</h5>
@@ -253,8 +258,10 @@
                     </div>
                     <div class="row">
                         <div class="col-auto">
-                            <img src="https://i.pinimg.com/564x/91/fc/d0/91fcd06f79087a2eff8fcab952ec92bc.jpg" width="80px" style="object-fit: cover; height: 80px; border-radius: 100%;" >
-                            <h5>Lol Cat</h5>
+                            <a href="friendprofile.html">
+                                <img src="https://i.pinimg.com/564x/91/fc/d0/91fcd06f79087a2eff8fcab952ec92bc.jpg" width="80px" style="object-fit: cover; height: 80px; border-radius: 100%;" >
+                                <h5>Lol Cat</h5>
+                            </a>
                         </div>
                         <div class="col-auto">
                             <h5>Purchased</h5>
@@ -275,8 +282,10 @@
                     </div>
                     <div class="row">
                         <div class="col-auto">
-                            <img src="https://i.pinimg.com/564x/d4/ac/98/d4ac98f9e36ab11baea90c9fc074f0d2.jpg" width="80px" style="object-fit: cover; height: 80px; border-radius: 100%;" >
-                            <h6 style="font-size: medium;">PomPomPurin</h6>
+                            <a href="friendprofile.html">
+                                <img src="https://i.pinimg.com/564x/d4/ac/98/d4ac98f9e36ab11baea90c9fc074f0d2.jpg" width="80px" style="object-fit: cover; height: 80px; border-radius: 100%;" >
+                                <h6 style="font-size: medium;">PomPomPurin</h6>
+                            </a>
                         </div>
                         <div class="col-auto p-0 flex justify-content-start">
                             <h5>Purchased</h5>
@@ -294,8 +303,10 @@
                     </div>
                     <div class="row">
                         <div class="col-auto">
-                            <img src="https://i.pinimg.com/564x/8c/4a/51/8c4a51e005629a084505649079b0a949.jpg" width="80px" style="object-fit: cover; height: 80px; border-radius: 100%;" >
-                            <h5>Swag Cat</h5>
+                            <a href="friendprofile.html">
+                                <img src="https://i.pinimg.com/564x/8c/4a/51/8c4a51e005629a084505649079b0a949.jpg" width="80px" style="object-fit: cover; height: 80px; border-radius: 100%;" >
+                                <h5>Swag Cat</h5>
+                            </a>
                         </div>
                         <div class="col-auto">
                             <h5>Purchased</h5>
